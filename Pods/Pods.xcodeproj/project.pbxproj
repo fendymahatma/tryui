@@ -1,0 +1,1168 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DD1E69378036CC1AEDC9187119341ED /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F4E1CB7072E8737254FE91AB51A048 /* ConstraintMakerRelatable.swift */; };
+		135AC5F32F3CA18F4ADBD08AA9472F69 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED034D00863170B69C071F8C5166E0A /* ConstraintMultiplierTarget.swift */; };
+		175B26051004C98A1FEED26D4A495108 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA59F9521E56A0D27517D5CC9EA3E102 /* ConstraintLayoutSupportDSL.swift */; };
+		2420D90B43AD3FABCD09AEF1259FFFB7 /* Pods-klikchatTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AA032378931A7B059A107C8DE772A4 /* Pods-klikchatTests-dummy.m */; };
+		2CDFDEB8B69689CF3683B8CD854EFAC2 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8C0213817D4BCBE9B47C4E9228D557 /* Constraint.swift */; };
+		2EA622898A02CA9940792F63494AE205 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185A274DBFEB12140253848A26225321 /* ConstraintRelation.swift */; };
+		3010A5AC2081EBDADFE0F370C7A8C979 /* JNExpandableTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 712508851694D2C089A7100A6F9966BB /* JNExpandableTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		311AFD45D57AFEBBF0C3C4B28799E255 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		31C33B8D1ABAF6A9B9417DF5E0CEE638 /* JNExpandableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AC17E341E7686BF911052FF50EB7EE /* JNExpandableTableView.m */; };
+		3F96E5734AA2F03B12643EA11F5E6006 /* Pods-klikchatUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8525A0BE6B9E801C4D17941C944E8747 /* Pods-klikchatUITests-dummy.m */; };
+		43D0BDF1D071A222C0D21F8CB78D3EEF /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88BD3B81C5FBEA506743C1C8B70BA25 /* UILayoutSupport+Extensions.swift */; };
+		467960E0D27EAD2669AE4F2615D116A4 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF7485D120FA114F090D1EF99F4274E /* ConstraintAttributes.swift */; };
+		46B32E8893691BC9FF1248A2084C73E7 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74372645315B0BDFC889C676FB1B5DA /* ConstraintLayoutSupport.swift */; };
+		47FEB2DB7FA8FD32054D55D1960AB6A0 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A28877899FC1FDAB3EC084196C10DF7 /* ConstraintViewDSL.swift */; };
+		4B0C417CACF2F5304D3328DAA35F6FF7 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A51D3BC165886C63CAAB1C7DBC7B89 /* ConstraintView+Extensions.swift */; };
+		58B8A1272D876439E67F614992289BBA /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CE45F79B7B7C5C02D87523610ADA87 /* SnapKit-dummy.m */; };
+		59A919863C049AB9EFE8B0E480BBC4AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5D8CB47A719CE9A06FE824F3341D87E1 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD173C6D221D985CC466F29423D60E /* ConstraintLayoutGuide.swift */; };
+		5F89C05B29B610536391D5061EE8038B /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6419E62C1FFEBC5EF908EFA4D02189 /* ConstraintPriority.swift */; };
+		646EE2EEEB47D8B561E3949602211B54 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1AA2972543FA39CBD59FFF02400D114 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68A13FB398CA1BAA2D4F58F3E8B9E9BF /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1013ED9E9CA7A0BEA2028A14E88D32 /* ConstraintLayoutGuide+Extensions.swift */; };
+		6E63C612C75E4A61CD76564F48CAE8D9 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D5F237AAAF431F82019429FB9945B /* ConstraintConfig.swift */; };
+		76673ACCDFA7032128CF57769B897EA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		79968598360A91BAA9547904C6544BFF /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8791C8772F4B14D9E1F8DD21D09BCA /* ConstraintMakerExtendable.swift */; };
+		7F33579A077BEEA0E306F9E6BD502FA6 /* Pods-klikchatUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 255C783685F759939699855F5C3A0966 /* Pods-klikchatUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		802DEE49DE80990559D620F703D3EF64 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CC6C02C2C7322949C8F52CCA59FC19 /* LayoutConstraint.swift */; };
+		81A529A2AC898D4800DBD594C91A3ADD /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A94A5FCC9342395E2556F4DF5B307 /* ConstraintDescription.swift */; };
+		8339D599A39736DFD3E2C91826F74BAA /* Pods-klikchat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB51E1DD5A18D11C5EA57C925C0EE4C6 /* Pods-klikchat-dummy.m */; };
+		8D2D836130C98B7D045EBF65E3A2D8C2 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DABA1CA723828CAE4BA16F62048187 /* ConstraintInsets.swift */; };
+		A165F92E69E864800AF9010B59DBF4C4 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CBFF12D9891EAF7BB61B29C7BBC168 /* ConstraintMaker.swift */; };
+		A75AFC57D15102E7EE8BF7077405E9FE /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97679E67437665D6735852D5F19A20EE /* ConstraintItem.swift */; };
+		A77FEF095D0DD4089F5F1082A6926C1E /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18AD76A1EF84530C559E47E8AB77310 /* ConstraintDSL.swift */; };
+		AB3937742AE3467F833A9F569D541030 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AE7D8C960D32A0672B7C1FB48B8513E8 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000C9F941618E4012EC5E793E79B941A /* Debugging.swift */; };
+		B54FDA968113DEA0CDE7F86726939B77 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463128B73D7322C8398ECFF3AF1A667A /* ConstraintConstantTarget.swift */; };
+		B67BB0BF9B7AA90A89FFF01D4287DD97 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9344FA3D34CE6CC7F0C0630E38689097 /* ConstraintMakerPriortizable.swift */; };
+		BE3ED9B9051CBB495CE018D5801CECD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BE6F30285640EFF9BCD10D88DFADE83C /* Pods-klikchatTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9866C37E4C42D31D776AF7ACA495F450 /* Pods-klikchatTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1B56D80AC9783334F4593F9E242A0B4 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCE4375ADF865FB0A5C7331812CC7CB /* ConstraintMakerEditable.swift */; };
+		C8179735AB77186257CE841F656406E0 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05D73307BA39EA7BA7C863813FBD95C /* ConstraintOffsetTarget.swift */; };
+		D5780188A52B0ED94CEE20CD0E83E139 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25343D07167CE4A7B675479A65B81903 /* ConstraintMakerFinalizable.swift */; };
+		DD8D7354211712483AEF802CAACC963F /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB90128351B64CE513CBF4B71D9E8CB9 /* ConstraintLayoutGuideDSL.swift */; };
+		E20A2913A376E7DDA88C9D723D91A824 /* JNExpandableTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E2BA7504DB44CC470A1FA183462A25 /* JNExpandableTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E42876A230680ECAC32F0038E5FD1571 /* Pods-klikchat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2E8119C9755FADA25EA6569E3DDC502 /* Pods-klikchat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E804129A6E66869BE4B3A937D51B5505 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44935337A9BFABE4BB0350F3BE597F /* ConstraintPriorityTarget.swift */; };
+		ED0EB3ED5C0856D28EA24C0B7B3E0348 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93927FB6E1C42D9861422B38DB9F144 /* ConstraintRelatableTarget.swift */; };
+		F18B129C15F53CF151E49BEF9D4CF209 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59AE344E0E38069A3213721CD3B4A92 /* ConstraintView.swift */; };
+		F92DBEFFCFDA8212464A9E14C88BF221 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855B2EA3654FCF57E04BDE8F458B60F0 /* ConstraintInsetTarget.swift */; };
+		FC1B967ED1309E88603217689AEF1AA6 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48DD5A917D5164312D00F952B48E1EF /* LayoutConstraintItem.swift */; };
+		FC97DE4B843238A1FB367DBDEF1C4CCF /* JNExpandableTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 912B790B5ABD4F4B18D924F2CC4D0224 /* JNExpandableTableView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C294200B3B89555D14BC18D592045BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11996D4B097C9272C9E2B9AFDA580A1D;
+			remoteInfo = SnapKit;
+		};
+		ED881D6F3A2A9CD9C43BC250797160DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3FE590FC994396320EE93058C667914;
+			remoteInfo = JNExpandableTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000C9F941618E4012EC5E793E79B941A /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		018EC58194E689BED0130C0008CC962C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ED034D00863170B69C071F8C5166E0A /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		0F1013ED9E9CA7A0BEA2028A14E88D32 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		10CE45F79B7B7C5C02D87523610ADA87 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		1422585D37C2B19674FA6A485E3AECBD /* Pods-klikchatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-klikchatTests.release.xcconfig"; sourceTree = "<group>"; };
+		17E2BA7504DB44CC470A1FA183462A25 /* JNExpandableTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JNExpandableTableView-umbrella.h"; sourceTree = "<group>"; };
+		185A274DBFEB12140253848A26225321 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		2221E2F7623CE66CBF9FB88E7A923698 /* Pods-klikchat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-klikchat-acknowledgements.plist"; sourceTree = "<group>"; };
+		25343D07167CE4A7B675479A65B81903 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		255C783685F759939699855F5C3A0966 /* Pods-klikchatUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-klikchatUITests-umbrella.h"; sourceTree = "<group>"; };
+		28C569B8A3A6FA157D9081F4983F7455 /* Pods-klikchatTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-klikchatTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A44935337A9BFABE4BB0350F3BE597F /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		3D6419E62C1FFEBC5EF908EFA4D02189 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		420A94A5FCC9342395E2556F4DF5B307 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		42E3A4C9F7A431DADAA93133C7ACAF40 /* Pods-klikchat-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-klikchat-frameworks.sh"; sourceTree = "<group>"; };
+		44CBFF12D9891EAF7BB61B29C7BBC168 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		45CEAF23E66F70FD2F83488DD7AE6668 /* Pods-klikchatUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-klikchatUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		463128B73D7322C8398ECFF3AF1A667A /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		516CDE5F20BBF90A2FA35574431C3C0A /* Pods-klikchatUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-klikchatUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5891163B338CF92074F9B1A3AB7F4B4C /* Pods-klikchatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-klikchatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		60AC17E341E7686BF911052FF50EB7EE /* JNExpandableTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JNExpandableTableView.m; path = JNExpandableTableView/JNExpandableTableView.m; sourceTree = "<group>"; };
+		6409849CB27B4662AA8932A2F806EE65 /* JNExpandableTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JNExpandableTableView.modulemap; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A3466737DC43F87991DB0F36FA50672 /* Pods-klikchatTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-klikchatTests.modulemap"; sourceTree = "<group>"; };
+		6BBD173C6D221D985CC466F29423D60E /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		6CA45C92EA82841F5B6450A37F611D22 /* JNExpandableTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JNExpandableTableView.framework; path = JNExpandableTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2D5F237AAAF431F82019429FB9945B /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		70CC6C02C2C7322949C8F52CCA59FC19 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		712508851694D2C089A7100A6F9966BB /* JNExpandableTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JNExpandableTableView.h; path = JNExpandableTableView/JNExpandableTableView.h; sourceTree = "<group>"; };
+		754AA8CFB62B8BCFAD4505F56F8EA5CB /* JNExpandableTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JNExpandableTableView.xcconfig; sourceTree = "<group>"; };
+		7847920082DC60565326218B13474F02 /* Pods-klikchatTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-klikchatTests-frameworks.sh"; sourceTree = "<group>"; };
+		7A28877899FC1FDAB3EC084196C10DF7 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		848DD5FD26B738F888ADAF9140C155F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8525A0BE6B9E801C4D17941C944E8747 /* Pods-klikchatUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-klikchatUITests-dummy.m"; sourceTree = "<group>"; };
+		855B2EA3654FCF57E04BDE8F458B60F0 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		87FB66526FE00E0FDF4F645B286F172D /* Pods-klikchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-klikchat.debug.xcconfig"; sourceTree = "<group>"; };
+		8B4D771B990CB1DBD7E9E266AEFA4A76 /* JNExpandableTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JNExpandableTableView-prefix.pch"; sourceTree = "<group>"; };
+		8BCED2115A6FCBD768F529CEFF241ED3 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		8C9140DDCE631072103919EEF1D6ED15 /* Pods-klikchatUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-klikchatUITests-resources.sh"; sourceTree = "<group>"; };
+		90A51D3BC165886C63CAAB1C7DBC7B89 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		912B790B5ABD4F4B18D924F2CC4D0224 /* JNExpandableTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JNExpandableTableView-dummy.m"; sourceTree = "<group>"; };
+		9344FA3D34CE6CC7F0C0630E38689097 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94AFD50026E9B33FBA4AD36BF55347BA /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		97679E67437665D6735852D5F19A20EE /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		9866C37E4C42D31D776AF7ACA495F450 /* Pods-klikchatTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-klikchatTests-umbrella.h"; sourceTree = "<group>"; };
+		98AB79849361AA30545372BC35233812 /* Pods-klikchatTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-klikchatTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B723075E09DD15BB0B051D725ED6B5C /* Pods-klikchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-klikchat.release.xcconfig"; sourceTree = "<group>"; };
+		9BC932F26D16D46AE5B377A4D9E196DD /* Pods_klikchatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_klikchatTests.framework; path = "Pods-klikchatTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8F9765B0C8B1A1D1423C752C6ED69B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E2C58D20671B981701AC04A930858EC /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF9216682739174D1515434D5A17576 /* Pods-klikchat-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-klikchat-resources.sh"; sourceTree = "<group>"; };
+		A69228D1D6EC2D5C0BD2D98C68866139 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88BD3B81C5FBEA506743C1C8B70BA25 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		A9141612AF9689B29C0715A9278D056B /* Pods-klikchatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-klikchatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AF8791C8772F4B14D9E1F8DD21D09BCA /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		BAF7485D120FA114F090D1EF99F4274E /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		BDE8957304C11E1C48E9CF4C21F88894 /* Pods-klikchat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-klikchat.modulemap"; sourceTree = "<group>"; };
+		BF5ABE433F10ADB0379D5AEF96150548 /* Pods_klikchatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_klikchatUITests.framework; path = "Pods-klikchatUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E5EFEB1BDE7E46AEC11AE888258FAC /* Pods-klikchatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-klikchatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2E8119C9755FADA25EA6569E3DDC502 /* Pods-klikchat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-klikchat-umbrella.h"; sourceTree = "<group>"; };
+		C4D58352A8059CB785227ED86DB591DF /* Pods-klikchatTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-klikchatTests-resources.sh"; sourceTree = "<group>"; };
+		C59AE344E0E38069A3213721CD3B4A92 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		C74372645315B0BDFC889C676FB1B5DA /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		C93927FB6E1C42D9861422B38DB9F144 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		CBBB180C95385E622BBA9CE6AA4172EE /* Pods-klikchat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-klikchat-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CCCE4375ADF865FB0A5C7331812CC7CB /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		D1AA2972543FA39CBD59FFF02400D114 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		D269196A0BF5B979ECB9E87990337C31 /* Pods-klikchatUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-klikchatUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5429F66BD81F57777B3C951093B157E /* Pods-klikchatUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-klikchatUITests.modulemap"; sourceTree = "<group>"; };
+		DD8C0213817D4BCBE9B47C4E9228D557 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		E05D73307BA39EA7BA7C863813FBD95C /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		E1DABA1CA723828CAE4BA16F62048187 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		E38492D5BDA137203604CBE11FBB96BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA59F9521E56A0D27517D5CC9EA3E102 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		EB51E1DD5A18D11C5EA57C925C0EE4C6 /* Pods-klikchat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-klikchat-dummy.m"; sourceTree = "<group>"; };
+		EB90128351B64CE513CBF4B71D9E8CB9 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		EE4B566BCEA6A43C09D4914A239A8BF3 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		F18AD76A1EF84530C559E47E8AB77310 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		F2AA032378931A7B059A107C8DE772A4 /* Pods-klikchatTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-klikchatTests-dummy.m"; sourceTree = "<group>"; };
+		F48DD5A917D5164312D00F952B48E1EF /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		F8F4E1CB7072E8737254FE91AB51A048 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		FE3EB58374739808836F0D92F80C0394 /* Pods_klikchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_klikchat.framework; path = "Pods-klikchat.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3646329D979FB99148F8F56791BC6D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A919863C049AB9EFE8B0E480BBC4AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501040B3D7FD976D8EE32325426A43D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311AFD45D57AFEBBF0C3C4B28799E255 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76C5B495B2909D38160DF26DBC588F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76673ACCDFA7032128CF57769B897EA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56248B06E4BF5DBB01EC27D7A9546C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3937742AE3467F833A9F569D541030 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5029AD34895CE6DC7598C86811FC02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3ED9B9051CBB495CE018D5801CECD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CF93D6ABAECBB5E46EF504CA91A2098 /* Pods-klikchatTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C8F9765B0C8B1A1D1423C752C6ED69B /* Info.plist */,
+				6A3466737DC43F87991DB0F36FA50672 /* Pods-klikchatTests.modulemap */,
+				98AB79849361AA30545372BC35233812 /* Pods-klikchatTests-acknowledgements.markdown */,
+				28C569B8A3A6FA157D9081F4983F7455 /* Pods-klikchatTests-acknowledgements.plist */,
+				F2AA032378931A7B059A107C8DE772A4 /* Pods-klikchatTests-dummy.m */,
+				7847920082DC60565326218B13474F02 /* Pods-klikchatTests-frameworks.sh */,
+				C4D58352A8059CB785227ED86DB591DF /* Pods-klikchatTests-resources.sh */,
+				9866C37E4C42D31D776AF7ACA495F450 /* Pods-klikchatTests-umbrella.h */,
+				5891163B338CF92074F9B1A3AB7F4B4C /* Pods-klikchatTests.debug.xcconfig */,
+				1422585D37C2B19674FA6A485E3AECBD /* Pods-klikchatTests.release.xcconfig */,
+			);
+			name = "Pods-klikchatTests";
+			path = "Target Support Files/Pods-klikchatTests";
+			sourceTree = "<group>";
+		};
+		3CFF314024BEBBD59FEF9E337E7B8229 /* JNExpandableTableView */ = {
+			isa = PBXGroup;
+			children = (
+				712508851694D2C089A7100A6F9966BB /* JNExpandableTableView.h */,
+				60AC17E341E7686BF911052FF50EB7EE /* JNExpandableTableView.m */,
+				B9403CD666A89981286B9AFEE677F6FF /* Support Files */,
+			);
+			name = JNExpandableTableView;
+			path = JNExpandableTableView;
+			sourceTree = "<group>";
+		};
+		70525031752ABE0126DE37F618E26C11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CA45C92EA82841F5B6450A37F611D22 /* JNExpandableTableView.framework */,
+				FE3EB58374739808836F0D92F80C0394 /* Pods_klikchat.framework */,
+				9BC932F26D16D46AE5B377A4D9E196DD /* Pods_klikchatTests.framework */,
+				BF5ABE433F10ADB0379D5AEF96150548 /* Pods_klikchatUITests.framework */,
+				9E2C58D20671B981701AC04A930858EC /* SnapKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73A8712FD619005F9CCC790D040AEAC4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				848DD5FD26B738F888ADAF9140C155F6 /* Info.plist */,
+				8BCED2115A6FCBD768F529CEFF241ED3 /* SnapKit.modulemap */,
+				94AFD50026E9B33FBA4AD36BF55347BA /* SnapKit.xcconfig */,
+				10CE45F79B7B7C5C02D87523610ADA87 /* SnapKit-dummy.m */,
+				EE4B566BCEA6A43C09D4914A239A8BF3 /* SnapKit-prefix.pch */,
+				D1AA2972543FA39CBD59FFF02400D114 /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F4AC4729E65FB2B4B4D4BB7C9A6509CF /* Pods */,
+				70525031752ABE0126DE37F618E26C11 /* Products */,
+				BC6464E3FE39724747DD2B45DC3C1C14 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B9403CD666A89981286B9AFEE677F6FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A69228D1D6EC2D5C0BD2D98C68866139 /* Info.plist */,
+				6409849CB27B4662AA8932A2F806EE65 /* JNExpandableTableView.modulemap */,
+				754AA8CFB62B8BCFAD4505F56F8EA5CB /* JNExpandableTableView.xcconfig */,
+				912B790B5ABD4F4B18D924F2CC4D0224 /* JNExpandableTableView-dummy.m */,
+				8B4D771B990CB1DBD7E9E266AEFA4A76 /* JNExpandableTableView-prefix.pch */,
+				17E2BA7504DB44CC470A1FA183462A25 /* JNExpandableTableView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JNExpandableTableView";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC6464E3FE39724747DD2B45DC3C1C14 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5F00E4B1531442286B532774E38BABF /* Pods-klikchat */,
+				1CF93D6ABAECBB5E46EF504CA91A2098 /* Pods-klikchatTests */,
+				BE5173D5C5BCF3E9F6B08A9165FD4B2C /* Pods-klikchatUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BE5173D5C5BCF3E9F6B08A9165FD4B2C /* Pods-klikchatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E38492D5BDA137203604CBE11FBB96BF /* Info.plist */,
+				D5429F66BD81F57777B3C951093B157E /* Pods-klikchatUITests.modulemap */,
+				D269196A0BF5B979ECB9E87990337C31 /* Pods-klikchatUITests-acknowledgements.markdown */,
+				45CEAF23E66F70FD2F83488DD7AE6668 /* Pods-klikchatUITests-acknowledgements.plist */,
+				8525A0BE6B9E801C4D17941C944E8747 /* Pods-klikchatUITests-dummy.m */,
+				516CDE5F20BBF90A2FA35574431C3C0A /* Pods-klikchatUITests-frameworks.sh */,
+				8C9140DDCE631072103919EEF1D6ED15 /* Pods-klikchatUITests-resources.sh */,
+				255C783685F759939699855F5C3A0966 /* Pods-klikchatUITests-umbrella.h */,
+				C2E5EFEB1BDE7E46AEC11AE888258FAC /* Pods-klikchatUITests.debug.xcconfig */,
+				A9141612AF9689B29C0715A9278D056B /* Pods-klikchatUITests.release.xcconfig */,
+			);
+			name = "Pods-klikchatUITests";
+			path = "Target Support Files/Pods-klikchatUITests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E5F00E4B1531442286B532774E38BABF /* Pods-klikchat */ = {
+			isa = PBXGroup;
+			children = (
+				018EC58194E689BED0130C0008CC962C /* Info.plist */,
+				BDE8957304C11E1C48E9CF4C21F88894 /* Pods-klikchat.modulemap */,
+				CBBB180C95385E622BBA9CE6AA4172EE /* Pods-klikchat-acknowledgements.markdown */,
+				2221E2F7623CE66CBF9FB88E7A923698 /* Pods-klikchat-acknowledgements.plist */,
+				EB51E1DD5A18D11C5EA57C925C0EE4C6 /* Pods-klikchat-dummy.m */,
+				42E3A4C9F7A431DADAA93133C7ACAF40 /* Pods-klikchat-frameworks.sh */,
+				9FF9216682739174D1515434D5A17576 /* Pods-klikchat-resources.sh */,
+				C2E8119C9755FADA25EA6569E3DDC502 /* Pods-klikchat-umbrella.h */,
+				87FB66526FE00E0FDF4F645B286F172D /* Pods-klikchat.debug.xcconfig */,
+				9B723075E09DD15BB0B051D725ED6B5C /* Pods-klikchat.release.xcconfig */,
+			);
+			name = "Pods-klikchat";
+			path = "Target Support Files/Pods-klikchat";
+			sourceTree = "<group>";
+		};
+		EF4B0DEF3515A6F6EFCF2F107D4CD573 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				DD8C0213817D4BCBE9B47C4E9228D557 /* Constraint.swift */,
+				BAF7485D120FA114F090D1EF99F4274E /* ConstraintAttributes.swift */,
+				6F2D5F237AAAF431F82019429FB9945B /* ConstraintConfig.swift */,
+				463128B73D7322C8398ECFF3AF1A667A /* ConstraintConstantTarget.swift */,
+				420A94A5FCC9342395E2556F4DF5B307 /* ConstraintDescription.swift */,
+				F18AD76A1EF84530C559E47E8AB77310 /* ConstraintDSL.swift */,
+				E1DABA1CA723828CAE4BA16F62048187 /* ConstraintInsets.swift */,
+				855B2EA3654FCF57E04BDE8F458B60F0 /* ConstraintInsetTarget.swift */,
+				97679E67437665D6735852D5F19A20EE /* ConstraintItem.swift */,
+				6BBD173C6D221D985CC466F29423D60E /* ConstraintLayoutGuide.swift */,
+				0F1013ED9E9CA7A0BEA2028A14E88D32 /* ConstraintLayoutGuide+Extensions.swift */,
+				EB90128351B64CE513CBF4B71D9E8CB9 /* ConstraintLayoutGuideDSL.swift */,
+				C74372645315B0BDFC889C676FB1B5DA /* ConstraintLayoutSupport.swift */,
+				EA59F9521E56A0D27517D5CC9EA3E102 /* ConstraintLayoutSupportDSL.swift */,
+				44CBFF12D9891EAF7BB61B29C7BBC168 /* ConstraintMaker.swift */,
+				CCCE4375ADF865FB0A5C7331812CC7CB /* ConstraintMakerEditable.swift */,
+				AF8791C8772F4B14D9E1F8DD21D09BCA /* ConstraintMakerExtendable.swift */,
+				25343D07167CE4A7B675479A65B81903 /* ConstraintMakerFinalizable.swift */,
+				9344FA3D34CE6CC7F0C0630E38689097 /* ConstraintMakerPriortizable.swift */,
+				F8F4E1CB7072E8737254FE91AB51A048 /* ConstraintMakerRelatable.swift */,
+				0ED034D00863170B69C071F8C5166E0A /* ConstraintMultiplierTarget.swift */,
+				E05D73307BA39EA7BA7C863813FBD95C /* ConstraintOffsetTarget.swift */,
+				3D6419E62C1FFEBC5EF908EFA4D02189 /* ConstraintPriority.swift */,
+				3A44935337A9BFABE4BB0350F3BE597F /* ConstraintPriorityTarget.swift */,
+				C93927FB6E1C42D9861422B38DB9F144 /* ConstraintRelatableTarget.swift */,
+				185A274DBFEB12140253848A26225321 /* ConstraintRelation.swift */,
+				C59AE344E0E38069A3213721CD3B4A92 /* ConstraintView.swift */,
+				90A51D3BC165886C63CAAB1C7DBC7B89 /* ConstraintView+Extensions.swift */,
+				7A28877899FC1FDAB3EC084196C10DF7 /* ConstraintViewDSL.swift */,
+				000C9F941618E4012EC5E793E79B941A /* Debugging.swift */,
+				70CC6C02C2C7322949C8F52CCA59FC19 /* LayoutConstraint.swift */,
+				F48DD5A917D5164312D00F952B48E1EF /* LayoutConstraintItem.swift */,
+				A88BD3B81C5FBEA506743C1C8B70BA25 /* UILayoutSupport+Extensions.swift */,
+				73A8712FD619005F9CCC790D040AEAC4 /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		F4AC4729E65FB2B4B4D4BB7C9A6509CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CFF314024BEBBD59FEF9E337E7B8229 /* JNExpandableTableView */,
+				EF4B0DEF3515A6F6EFCF2F107D4CD573 /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22549E11CAA2F5A41DD0D8334D1FBAEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42876A230680ECAC32F0038E5FD1571 /* Pods-klikchat-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E660237A614859C8BC6A8346F2F8F82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F33579A077BEEA0E306F9E6BD502FA6 /* Pods-klikchatUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8849135B7869440C5C2F3D087C02D479 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646EE2EEEB47D8B561E3949602211B54 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37E035F514E3A04E18BB16361F0E0E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6F30285640EFF9BCD10D88DFADE83C /* Pods-klikchatTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA23F65787EF4D9E59449229A3237CE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20A2913A376E7DDA88C9D723D91A824 /* JNExpandableTableView-umbrella.h in Headers */,
+				3010A5AC2081EBDADFE0F370C7A8C979 /* JNExpandableTableView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		11996D4B097C9272C9E2B9AFDA580A1D /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF3BF93D6563823FF5A8C9E2FFF3994 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				7C9B266DB4170607E9F46C331E07E802 /* Sources */,
+				BA5029AD34895CE6DC7598C86811FC02 /* Frameworks */,
+				8849135B7869440C5C2F3D087C02D479 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 9E2C58D20671B981701AC04A930858EC /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		12A879FCEBC5CF3BCD29224038E1DDED /* Pods-klikchatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C89629E4758D27E6071F0F8D4824FD7 /* Build configuration list for PBXNativeTarget "Pods-klikchatTests" */;
+			buildPhases = (
+				448DA58BD84428559C19B8CAD71626F6 /* Sources */,
+				3646329D979FB99148F8F56791BC6D10 /* Frameworks */,
+				B37E035F514E3A04E18BB16361F0E0E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-klikchatTests";
+			productName = "Pods-klikchatTests";
+			productReference = 9BC932F26D16D46AE5B377A4D9E196DD /* Pods_klikchatTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		581E85D1F93C9DB1EF13924352FADE68 /* Pods-klikchat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FAAE38BCE264E53ABB465CD74C6A5C /* Build configuration list for PBXNativeTarget "Pods-klikchat" */;
+			buildPhases = (
+				597FA5118E26C2138E76F99367616A73 /* Sources */,
+				501040B3D7FD976D8EE32325426A43D6 /* Frameworks */,
+				22549E11CAA2F5A41DD0D8334D1FBAEF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E520DF769EA92F203B8DCDDCEDA28CA /* PBXTargetDependency */,
+				4CFFF73AE52C534E207ED6CB09BF5582 /* PBXTargetDependency */,
+			);
+			name = "Pods-klikchat";
+			productName = "Pods-klikchat";
+			productReference = FE3EB58374739808836F0D92F80C0394 /* Pods_klikchat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3F81675577E3EE40749777CB55AB438 /* Pods-klikchatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E27912232D5E210A22B66C7F4D5E87 /* Build configuration list for PBXNativeTarget "Pods-klikchatUITests" */;
+			buildPhases = (
+				C876C680F1AE5A59290D74B426CD6297 /* Sources */,
+				A76C5B495B2909D38160DF26DBC588F6 /* Frameworks */,
+				7E660237A614859C8BC6A8346F2F8F82 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-klikchatUITests";
+			productName = "Pods-klikchatUITests";
+			productReference = BF5ABE433F10ADB0379D5AEF96150548 /* Pods_klikchatUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3FE590FC994396320EE93058C667914 /* JNExpandableTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45CDC6E862A539E07FA5CFC0506D57D /* Build configuration list for PBXNativeTarget "JNExpandableTableView" */;
+			buildPhases = (
+				453A50A70D2C7C0895E00057D876BCC2 /* Sources */,
+				B56248B06E4BF5DBB01EC27D7A9546C1 /* Frameworks */,
+				BA23F65787EF4D9E59449229A3237CE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JNExpandableTableView;
+			productName = JNExpandableTableView;
+			productReference = 6CA45C92EA82841F5B6450A37F611D22 /* JNExpandableTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 70525031752ABE0126DE37F618E26C11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3FE590FC994396320EE93058C667914 /* JNExpandableTableView */,
+				581E85D1F93C9DB1EF13924352FADE68 /* Pods-klikchat */,
+				12A879FCEBC5CF3BCD29224038E1DDED /* Pods-klikchatTests */,
+				A3F81675577E3EE40749777CB55AB438 /* Pods-klikchatUITests */,
+				11996D4B097C9272C9E2B9AFDA580A1D /* SnapKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		448DA58BD84428559C19B8CAD71626F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2420D90B43AD3FABCD09AEF1259FFFB7 /* Pods-klikchatTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		453A50A70D2C7C0895E00057D876BCC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC97DE4B843238A1FB367DBDEF1C4CCF /* JNExpandableTableView-dummy.m in Sources */,
+				31C33B8D1ABAF6A9B9417DF5E0CEE638 /* JNExpandableTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		597FA5118E26C2138E76F99367616A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8339D599A39736DFD3E2C91826F74BAA /* Pods-klikchat-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C9B266DB4170607E9F46C331E07E802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDFDEB8B69689CF3683B8CD854EFAC2 /* Constraint.swift in Sources */,
+				467960E0D27EAD2669AE4F2615D116A4 /* ConstraintAttributes.swift in Sources */,
+				6E63C612C75E4A61CD76564F48CAE8D9 /* ConstraintConfig.swift in Sources */,
+				B54FDA968113DEA0CDE7F86726939B77 /* ConstraintConstantTarget.swift in Sources */,
+				81A529A2AC898D4800DBD594C91A3ADD /* ConstraintDescription.swift in Sources */,
+				A77FEF095D0DD4089F5F1082A6926C1E /* ConstraintDSL.swift in Sources */,
+				8D2D836130C98B7D045EBF65E3A2D8C2 /* ConstraintInsets.swift in Sources */,
+				F92DBEFFCFDA8212464A9E14C88BF221 /* ConstraintInsetTarget.swift in Sources */,
+				A75AFC57D15102E7EE8BF7077405E9FE /* ConstraintItem.swift in Sources */,
+				68A13FB398CA1BAA2D4F58F3E8B9E9BF /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				5D8CB47A719CE9A06FE824F3341D87E1 /* ConstraintLayoutGuide.swift in Sources */,
+				DD8D7354211712483AEF802CAACC963F /* ConstraintLayoutGuideDSL.swift in Sources */,
+				46B32E8893691BC9FF1248A2084C73E7 /* ConstraintLayoutSupport.swift in Sources */,
+				175B26051004C98A1FEED26D4A495108 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				A165F92E69E864800AF9010B59DBF4C4 /* ConstraintMaker.swift in Sources */,
+				C1B56D80AC9783334F4593F9E242A0B4 /* ConstraintMakerEditable.swift in Sources */,
+				79968598360A91BAA9547904C6544BFF /* ConstraintMakerExtendable.swift in Sources */,
+				D5780188A52B0ED94CEE20CD0E83E139 /* ConstraintMakerFinalizable.swift in Sources */,
+				B67BB0BF9B7AA90A89FFF01D4287DD97 /* ConstraintMakerPriortizable.swift in Sources */,
+				0DD1E69378036CC1AEDC9187119341ED /* ConstraintMakerRelatable.swift in Sources */,
+				135AC5F32F3CA18F4ADBD08AA9472F69 /* ConstraintMultiplierTarget.swift in Sources */,
+				C8179735AB77186257CE841F656406E0 /* ConstraintOffsetTarget.swift in Sources */,
+				5F89C05B29B610536391D5061EE8038B /* ConstraintPriority.swift in Sources */,
+				E804129A6E66869BE4B3A937D51B5505 /* ConstraintPriorityTarget.swift in Sources */,
+				ED0EB3ED5C0856D28EA24C0B7B3E0348 /* ConstraintRelatableTarget.swift in Sources */,
+				2EA622898A02CA9940792F63494AE205 /* ConstraintRelation.swift in Sources */,
+				4B0C417CACF2F5304D3328DAA35F6FF7 /* ConstraintView+Extensions.swift in Sources */,
+				F18B129C15F53CF151E49BEF9D4CF209 /* ConstraintView.swift in Sources */,
+				47FEB2DB7FA8FD32054D55D1960AB6A0 /* ConstraintViewDSL.swift in Sources */,
+				AE7D8C960D32A0672B7C1FB48B8513E8 /* Debugging.swift in Sources */,
+				802DEE49DE80990559D620F703D3EF64 /* LayoutConstraint.swift in Sources */,
+				FC1B967ED1309E88603217689AEF1AA6 /* LayoutConstraintItem.swift in Sources */,
+				58B8A1272D876439E67F614992289BBA /* SnapKit-dummy.m in Sources */,
+				43D0BDF1D071A222C0D21F8CB78D3EEF /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C876C680F1AE5A59290D74B426CD6297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F96E5734AA2F03B12643EA11F5E6006 /* Pods-klikchatUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E520DF769EA92F203B8DCDDCEDA28CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JNExpandableTableView;
+			target = A3FE590FC994396320EE93058C667914 /* JNExpandableTableView */;
+			targetProxy = ED881D6F3A2A9CD9C43BC250797160DA /* PBXContainerItemProxy */;
+		};
+		4CFFF73AE52C534E207ED6CB09BF5582 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 11996D4B097C9272C9E2B9AFDA580A1D /* SnapKit */;
+			targetProxy = C294200B3B89555D14BC18D592045BC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07253846FEA087F8F7A09A11A549AE3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94AFD50026E9B33FBA4AD36BF55347BA /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		08A601FEB40FF4BB73855163C55C735D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B723075E09DD15BB0B051D725ED6B5C /* Pods-klikchat.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-klikchat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-klikchat/Pods-klikchat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_klikchat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D9CD337DEE31F25EB9B70D3889C159F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 754AA8CFB62B8BCFAD4505F56F8EA5CB /* JNExpandableTableView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JNExpandableTableView/JNExpandableTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JNExpandableTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JNExpandableTableView/JNExpandableTableView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JNExpandableTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B70C11BBF2F76121B390B9F3CD3B5EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1422585D37C2B19674FA6A485E3AECBD /* Pods-klikchatTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-klikchatTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-klikchatTests/Pods-klikchatTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_klikchatTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8CEDDF4C5630A5E6CE7ACCC6BBCECAA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94AFD50026E9B33FBA4AD36BF55347BA /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91CA573313733F4AB72D93C6F4CF1B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87FB66526FE00E0FDF4F645B286F172D /* Pods-klikchat.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-klikchat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-klikchat/Pods-klikchat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_klikchat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		948C35A68C67C09955E582288CE67F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 754AA8CFB62B8BCFAD4505F56F8EA5CB /* JNExpandableTableView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JNExpandableTableView/JNExpandableTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JNExpandableTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JNExpandableTableView/JNExpandableTableView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JNExpandableTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE49A1309CFABFD6E94C158DE48E71CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9141612AF9689B29C0715A9278D056B /* Pods-klikchatUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-klikchatUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-klikchatUITests/Pods-klikchatUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_klikchatUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DAE91D996EF86A0590A1957634B72849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2E5EFEB1BDE7E46AEC11AE888258FAC /* Pods-klikchatUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-klikchatUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-klikchatUITests/Pods-klikchatUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_klikchatUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E45B5D7998D699F6DD534B23BF8ADC7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5891163B338CF92074F9B1A3AB7F4B4C /* Pods-klikchatTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-klikchatTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-klikchatTests/Pods-klikchatTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_klikchatTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01E27912232D5E210A22B66C7F4D5E87 /* Build configuration list for PBXNativeTarget "Pods-klikchatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE91D996EF86A0590A1957634B72849 /* Debug */,
+				CE49A1309CFABFD6E94C158DE48E71CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C89629E4758D27E6071F0F8D4824FD7 /* Build configuration list for PBXNativeTarget "Pods-klikchatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45B5D7998D699F6DD534B23BF8ADC7C /* Debug */,
+				8B70C11BBF2F76121B390B9F3CD3B5EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF3BF93D6563823FF5A8C9E2FFF3994 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CEDDF4C5630A5E6CE7ACCC6BBCECAA2 /* Debug */,
+				07253846FEA087F8F7A09A11A549AE3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45CDC6E862A539E07FA5CFC0506D57D /* Build configuration list for PBXNativeTarget "JNExpandableTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D9CD337DEE31F25EB9B70D3889C159F /* Debug */,
+				948C35A68C67C09955E582288CE67F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0FAAE38BCE264E53ABB465CD74C6A5C /* Build configuration list for PBXNativeTarget "Pods-klikchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CA573313733F4AB72D93C6F4CF1B20 /* Debug */,
+				08A601FEB40FF4BB73855163C55C735D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

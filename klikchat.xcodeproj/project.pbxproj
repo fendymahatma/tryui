@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E114B4B049698A71730E130 /* Pods_klikchatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636EF71BD85AF452BCB9C643 /* Pods_klikchatTests.framework */; };
+		89C37DCD1F3B2831004CC975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C37DCC1F3B2831004CC975 /* AppDelegate.swift */; };
+		89C37DCF1F3B2831004CC975 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C37DCE1F3B2831004CC975 /* ViewController.swift */; };
+		89C37DD21F3B2831004CC975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89C37DD01F3B2831004CC975 /* Main.storyboard */; };
+		89C37DD41F3B2831004CC975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C37DD31F3B2831004CC975 /* Assets.xcassets */; };
+		89C37DD71F3B2831004CC975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89C37DD51F3B2831004CC975 /* LaunchScreen.storyboard */; };
+		89C37DE21F3B2832004CC975 /* klikchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C37DE11F3B2832004CC975 /* klikchatTests.swift */; };
+		89C37DED1F3B2832004CC975 /* klikchatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C37DEC1F3B2832004CC975 /* klikchatUITests.swift */; };
+		89C37DFB1F3B2B00004CC975 /* FriendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C37DFA1F3B2B00004CC975 /* FriendController.swift */; };
+		89C37DFD1F3B2F9A004CC975 /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C37DFC1F3B2F9A004CC975 /* ChatController.swift */; };
+		89C37DFF1F3B2FE3004CC975 /* TimelineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C37DFE1F3B2FE3004CC975 /* TimelineController.swift */; };
+		89C37E011F3B2FF4004CC975 /* MoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C37E001F3B2FF4004CC975 /* MoreController.swift */; };
+		89C37E041F3B3204004CC975 /* HeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C37E021F3B3204004CC975 /* HeaderViewCell.swift */; };
+		89C37E051F3B3204004CC975 /* HeaderViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C37E031F3B3204004CC975 /* HeaderViewCell.xib */; };
+		89C37E091F3B32B6004CC975 /* UIViewExtends.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C37E081F3B32B6004CC975 /* UIViewExtends.m */; };
+		89C37E0B1F3B3C23004CC975 /* ContentBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C37E0A1F3B3C23004CC975 /* ContentBannerView.swift */; };
+		E36CF1A566C1771D1D621790 /* Pods_klikchatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C356E0F6AE4507E308DD7F /* Pods_klikchatUITests.framework */; };
+		FE519CD6C1DD8CE8EBCFD2D3 /* Pods_klikchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C3601FE4AE872F03685198 /* Pods_klikchat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89C37DDE1F3B2832004CC975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89C37DC11F3B2831004CC975 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89C37DC81F3B2831004CC975;
+			remoteInfo = klikchat;
+		};
+		89C37DE91F3B2832004CC975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89C37DC11F3B2831004CC975 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89C37DC81F3B2831004CC975;
+			remoteInfo = klikchat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28A18C6EDA28934A01350805 /* Pods-klikchatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klikchatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-klikchatUITests/Pods-klikchatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2C976DD8F7493371239666AB /* Pods-klikchatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klikchatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-klikchatTests/Pods-klikchatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		54C3601FE4AE872F03685198 /* Pods_klikchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_klikchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		636EF71BD85AF452BCB9C643 /* Pods_klikchatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_klikchatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C37DC91F3B2831004CC975 /* klikchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = klikchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C37DCC1F3B2831004CC975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89C37DCE1F3B2831004CC975 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89C37DD11F3B2831004CC975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89C37DD31F3B2831004CC975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89C37DD61F3B2831004CC975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C37DD81F3B2831004CC975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89C37DDD1F3B2832004CC975 /* klikchatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = klikchatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C37DE11F3B2832004CC975 /* klikchatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = klikchatTests.swift; sourceTree = "<group>"; };
+		89C37DE31F3B2832004CC975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89C37DE81F3B2832004CC975 /* klikchatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = klikchatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C37DEC1F3B2832004CC975 /* klikchatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = klikchatUITests.swift; sourceTree = "<group>"; };
+		89C37DEE1F3B2832004CC975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89C37DFA1F3B2B00004CC975 /* FriendController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendController.swift; sourceTree = "<group>"; };
+		89C37DFC1F3B2F9A004CC975 /* ChatController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		89C37DFE1F3B2FE3004CC975 /* TimelineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineController.swift; sourceTree = "<group>"; };
+		89C37E001F3B2FF4004CC975 /* MoreController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreController.swift; sourceTree = "<group>"; };
+		89C37E021F3B3204004CC975 /* HeaderViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderViewCell.swift; sourceTree = "<group>"; };
+		89C37E031F3B3204004CC975 /* HeaderViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderViewCell.xib; sourceTree = "<group>"; };
+		89C37E061F3B32B6004CC975 /* klikchat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "klikchat-Bridging-Header.h"; sourceTree = "<group>"; };
+		89C37E071F3B32B6004CC975 /* UIViewExtends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExtends.h; sourceTree = "<group>"; };
+		89C37E081F3B32B6004CC975 /* UIViewExtends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExtends.m; sourceTree = "<group>"; };
+		89C37E0A1F3B3C23004CC975 /* ContentBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentBannerView.swift; sourceTree = "<group>"; };
+		8D0A6F2EDC249C0D4D89A2AF /* Pods-klikchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klikchat.release.xcconfig"; path = "Pods/Target Support Files/Pods-klikchat/Pods-klikchat.release.xcconfig"; sourceTree = "<group>"; };
+		9067743E41BDE2A5927C94BA /* Pods-klikchatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klikchatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-klikchatUITests/Pods-klikchatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9564F0532A7DB3F24021E84B /* Pods-klikchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klikchat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-klikchat/Pods-klikchat.debug.xcconfig"; sourceTree = "<group>"; };
+		B031230B906F4ABBBE81ED3C /* Pods-klikchatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klikchatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-klikchatTests/Pods-klikchatTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8C356E0F6AE4507E308DD7F /* Pods_klikchatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_klikchatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89C37DC61F3B2831004CC975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE519CD6C1DD8CE8EBCFD2D3 /* Pods_klikchat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C37DDA1F3B2832004CC975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E114B4B049698A71730E130 /* Pods_klikchatTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C37DE51F3B2832004CC975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36CF1A566C1771D1D621790 /* Pods_klikchatUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2652EF8B63B516B123BD252A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54C3601FE4AE872F03685198 /* Pods_klikchat.framework */,
+				636EF71BD85AF452BCB9C643 /* Pods_klikchatTests.framework */,
+				F8C356E0F6AE4507E308DD7F /* Pods_klikchatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4ECFFADA6DA1D3485404415A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9564F0532A7DB3F24021E84B /* Pods-klikchat.debug.xcconfig */,
+				8D0A6F2EDC249C0D4D89A2AF /* Pods-klikchat.release.xcconfig */,
+				2C976DD8F7493371239666AB /* Pods-klikchatTests.debug.xcconfig */,
+				B031230B906F4ABBBE81ED3C /* Pods-klikchatTests.release.xcconfig */,
+				9067743E41BDE2A5927C94BA /* Pods-klikchatUITests.debug.xcconfig */,
+				28A18C6EDA28934A01350805 /* Pods-klikchatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		89C37DC01F3B2831004CC975 = {
+			isa = PBXGroup;
+			children = (
+				89C37DCB1F3B2831004CC975 /* klikchat */,
+				89C37DE01F3B2832004CC975 /* klikchatTests */,
+				89C37DEB1F3B2832004CC975 /* klikchatUITests */,
+				89C37DCA1F3B2831004CC975 /* Products */,
+				4ECFFADA6DA1D3485404415A /* Pods */,
+				2652EF8B63B516B123BD252A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89C37DCA1F3B2831004CC975 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89C37DC91F3B2831004CC975 /* klikchat.app */,
+				89C37DDD1F3B2832004CC975 /* klikchatTests.xctest */,
+				89C37DE81F3B2832004CC975 /* klikchatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89C37DCB1F3B2831004CC975 /* klikchat */ = {
+			isa = PBXGroup;
+			children = (
+				89C37E071F3B32B6004CC975 /* UIViewExtends.h */,
+				89C37E081F3B32B6004CC975 /* UIViewExtends.m */,
+				89C37DCC1F3B2831004CC975 /* AppDelegate.swift */,
+				89C37DCE1F3B2831004CC975 /* ViewController.swift */,
+				89C37DFC1F3B2F9A004CC975 /* ChatController.swift */,
+				89C37DFE1F3B2FE3004CC975 /* TimelineController.swift */,
+				89C37E001F3B2FF4004CC975 /* MoreController.swift */,
+				89C37E0A1F3B3C23004CC975 /* ContentBannerView.swift */,
+				89C37DFA1F3B2B00004CC975 /* FriendController.swift */,
+				89C37E021F3B3204004CC975 /* HeaderViewCell.swift */,
+				89C37E031F3B3204004CC975 /* HeaderViewCell.xib */,
+				89C37DD01F3B2831004CC975 /* Main.storyboard */,
+				89C37DD31F3B2831004CC975 /* Assets.xcassets */,
+				89C37DD51F3B2831004CC975 /* LaunchScreen.storyboard */,
+				89C37DD81F3B2831004CC975 /* Info.plist */,
+				89C37E061F3B32B6004CC975 /* klikchat-Bridging-Header.h */,
+			);
+			path = klikchat;
+			sourceTree = "<group>";
+		};
+		89C37DE01F3B2832004CC975 /* klikchatTests */ = {
+			isa = PBXGroup;
+			children = (
+				89C37DE11F3B2832004CC975 /* klikchatTests.swift */,
+				89C37DE31F3B2832004CC975 /* Info.plist */,
+			);
+			path = klikchatTests;
+			sourceTree = "<group>";
+		};
+		89C37DEB1F3B2832004CC975 /* klikchatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89C37DEC1F3B2832004CC975 /* klikchatUITests.swift */,
+				89C37DEE1F3B2832004CC975 /* Info.plist */,
+			);
+			path = klikchatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89C37DC81F3B2831004CC975 /* klikchat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89C37DF11F3B2832004CC975 /* Build configuration list for PBXNativeTarget "klikchat" */;
+			buildPhases = (
+				3124B30D6351BE17D047C0E9 /* [CP] Check Pods Manifest.lock */,
+				89C37DC51F3B2831004CC975 /* Sources */,
+				89C37DC61F3B2831004CC975 /* Frameworks */,
+				89C37DC71F3B2831004CC975 /* Resources */,
+				8A46CA92826C1FA52D424543 /* [CP] Embed Pods Frameworks */,
+				1C6DA5F2E6D2AE070B5BB67C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = klikchat;
+			productName = klikchat;
+			productReference = 89C37DC91F3B2831004CC975 /* klikchat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89C37DDC1F3B2832004CC975 /* klikchatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89C37DF41F3B2832004CC975 /* Build configuration list for PBXNativeTarget "klikchatTests" */;
+			buildPhases = (
+				642E579E578BA37B68D5E84F /* [CP] Check Pods Manifest.lock */,
+				89C37DD91F3B2832004CC975 /* Sources */,
+				89C37DDA1F3B2832004CC975 /* Frameworks */,
+				89C37DDB1F3B2832004CC975 /* Resources */,
+				8BA14D983A6013AD90291DE4 /* [CP] Embed Pods Frameworks */,
+				4990489D3A17722A1D524FBE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89C37DDF1F3B2832004CC975 /* PBXTargetDependency */,
+			);
+			name = klikchatTests;
+			productName = klikchatTests;
+			productReference = 89C37DDD1F3B2832004CC975 /* klikchatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89C37DE71F3B2832004CC975 /* klikchatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89C37DF71F3B2832004CC975 /* Build configuration list for PBXNativeTarget "klikchatUITests" */;
+			buildPhases = (
+				7D6B792895C86300A7A59A13 /* [CP] Check Pods Manifest.lock */,
+				89C37DE41F3B2832004CC975 /* Sources */,
+				89C37DE51F3B2832004CC975 /* Frameworks */,
+				89C37DE61F3B2832004CC975 /* Resources */,
+				F54AF51AC2A9F7D79EF9A70B /* [CP] Embed Pods Frameworks */,
+				7DE7EDA96E3C097C364E7AD4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89C37DEA1F3B2832004CC975 /* PBXTargetDependency */,
+			);
+			name = klikchatUITests;
+			productName = klikchatUITests;
+			productReference = 89C37DE81F3B2832004CC975 /* klikchatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89C37DC11F3B2831004CC975 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ajiejoy;
+				TargetAttributes = {
+					89C37DC81F3B2831004CC975 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					89C37DDC1F3B2832004CC975 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 89C37DC81F3B2831004CC975;
+					};
+					89C37DE71F3B2832004CC975 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 89C37DC81F3B2831004CC975;
+					};
+				};
+			};
+			buildConfigurationList = 89C37DC41F3B2831004CC975 /* Build configuration list for PBXProject "klikchat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89C37DC01F3B2831004CC975;
+			productRefGroup = 89C37DCA1F3B2831004CC975 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89C37DC81F3B2831004CC975 /* klikchat */,
+				89C37DDC1F3B2832004CC975 /* klikchatTests */,
+				89C37DE71F3B2832004CC975 /* klikchatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89C37DC71F3B2831004CC975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C37DD71F3B2831004CC975 /* LaunchScreen.storyboard in Resources */,
+				89C37DD41F3B2831004CC975 /* Assets.xcassets in Resources */,
+				89C37DD21F3B2831004CC975 /* Main.storyboard in Resources */,
+				89C37E051F3B3204004CC975 /* HeaderViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C37DDB1F3B2832004CC975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C37DE61F3B2832004CC975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C6DA5F2E6D2AE070B5BB67C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-klikchat/Pods-klikchat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3124B30D6351BE17D047C0E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4990489D3A17722A1D524FBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-klikchatTests/Pods-klikchatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		642E579E578BA37B68D5E84F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D6B792895C86300A7A59A13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7DE7EDA96E3C097C364E7AD4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-klikchatUITests/Pods-klikchatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A46CA92826C1FA52D424543 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-klikchat/Pods-klikchat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BA14D983A6013AD90291DE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-klikchatTests/Pods-klikchatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F54AF51AC2A9F7D79EF9A70B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-klikchatUITests/Pods-klikchatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89C37DC51F3B2831004CC975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C37DCF1F3B2831004CC975 /* ViewController.swift in Sources */,
+				89C37E041F3B3204004CC975 /* HeaderViewCell.swift in Sources */,
+				89C37DFB1F3B2B00004CC975 /* FriendController.swift in Sources */,
+				89C37E0B1F3B3C23004CC975 /* ContentBannerView.swift in Sources */,
+				89C37DCD1F3B2831004CC975 /* AppDelegate.swift in Sources */,
+				89C37DFD1F3B2F9A004CC975 /* ChatController.swift in Sources */,
+				89C37E011F3B2FF4004CC975 /* MoreController.swift in Sources */,
+				89C37E091F3B32B6004CC975 /* UIViewExtends.m in Sources */,
+				89C37DFF1F3B2FE3004CC975 /* TimelineController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C37DD91F3B2832004CC975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C37DE21F3B2832004CC975 /* klikchatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C37DE41F3B2832004CC975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C37DED1F3B2832004CC975 /* klikchatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89C37DDF1F3B2832004CC975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89C37DC81F3B2831004CC975 /* klikchat */;
+			targetProxy = 89C37DDE1F3B2832004CC975 /* PBXContainerItemProxy */;
+		};
+		89C37DEA1F3B2832004CC975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89C37DC81F3B2831004CC975 /* klikchat */;
+			targetProxy = 89C37DE91F3B2832004CC975 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89C37DD01F3B2831004CC975 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89C37DD11F3B2831004CC975 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89C37DD51F3B2831004CC975 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89C37DD61F3B2831004CC975 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89C37DEF1F3B2832004CC975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89C37DF01F3B2832004CC975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89C37DF21F3B2832004CC975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9564F0532A7DB3F24021E84B /* Pods-klikchat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = klikchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.originesia.klikchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "klikchat/klikchat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		89C37DF31F3B2832004CC975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0A6F2EDC249C0D4D89A2AF /* Pods-klikchat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = klikchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.originesia.klikchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "klikchat/klikchat-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		89C37DF51F3B2832004CC975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C976DD8F7493371239666AB /* Pods-klikchatTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = klikchatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.originesia.klikchatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/klikchat.app/klikchat";
+			};
+			name = Debug;
+		};
+		89C37DF61F3B2832004CC975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B031230B906F4ABBBE81ED3C /* Pods-klikchatTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = klikchatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.originesia.klikchatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/klikchat.app/klikchat";
+			};
+			name = Release;
+		};
+		89C37DF81F3B2832004CC975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9067743E41BDE2A5927C94BA /* Pods-klikchatUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = klikchatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.originesia.klikchatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = klikchat;
+			};
+			name = Debug;
+		};
+		89C37DF91F3B2832004CC975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A18C6EDA28934A01350805 /* Pods-klikchatUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = klikchatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.originesia.klikchatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = klikchat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89C37DC41F3B2831004CC975 /* Build configuration list for PBXProject "klikchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C37DEF1F3B2832004CC975 /* Debug */,
+				89C37DF01F3B2832004CC975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89C37DF11F3B2832004CC975 /* Build configuration list for PBXNativeTarget "klikchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C37DF21F3B2832004CC975 /* Debug */,
+				89C37DF31F3B2832004CC975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89C37DF41F3B2832004CC975 /* Build configuration list for PBXNativeTarget "klikchatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C37DF51F3B2832004CC975 /* Debug */,
+				89C37DF61F3B2832004CC975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89C37DF71F3B2832004CC975 /* Build configuration list for PBXNativeTarget "klikchatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C37DF81F3B2832004CC975 /* Debug */,
+				89C37DF91F3B2832004CC975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89C37DC11F3B2831004CC975 /* Project object */;
+}

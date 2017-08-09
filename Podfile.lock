@@ -1,0 +1,15 @@
+PODS:
+  - JNExpandableTableView (1.0.3)
+  - SnapKit (3.2.0)
+
+DEPENDENCIES:
+  - JNExpandableTableView
+  - SnapKit
+
+SPEC CHECKSUMS:
+  JNExpandableTableView: e4b37cf8613bbd134c8976ce1d5243327895a2ba
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+
+PODFILE CHECKSUM: e10f465ef5900122d4fe6204d6089a80c69398e1
+
+COCOAPODS: 1.2.1

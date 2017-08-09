@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>JNExpandableTableView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-klikchat.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-klikchatTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-klikchatUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SnapKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>11996D4B097C9272C9E2B9AFDA580A1D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>12A879FCEBC5CF3BCD29224038E1DDED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>581E85D1F93C9DB1EF13924352FADE68</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A3F81675577E3EE40749777CB55AB438</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A3FE590FC994396320EE93058C667914</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
